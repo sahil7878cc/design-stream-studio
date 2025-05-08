@@ -1,11 +1,10 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Layout from '@/components/Layout';
 import VideoPlayer from '@/components/VideoPlayer';
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
-import { Camera, Gallery, Layout as LayoutIcon } from 'lucide-react';
+import { Camera, GalleryHorizontal, Layout as LayoutIcon } from 'lucide-react';
 
 const Index = () => {
   return (
@@ -71,7 +70,7 @@ const Index = () => {
               className="md:translate-y-8"
             />
             <FeatureCard 
-              icon={<Gallery className="h-8 w-8 text-primary" />}
+              icon={<GalleryHorizontal className="h-8 w-8 text-primary" />}
               title="Stunning Templates"
               description="Start with professionally designed templates or create your own from scratch"
             />

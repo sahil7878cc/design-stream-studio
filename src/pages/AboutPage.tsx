@@ -3,7 +3,7 @@ import React from 'react';
 import Layout from '@/components/Layout';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
-import { Edit, Camera, Gallery, LayoutDashboard, Share } from 'lucide-react';
+import { Edit, Camera, GalleryHorizontal, LayoutDashboard, Share } from 'lucide-react';
 
 const AboutPage = () => {
   return (
